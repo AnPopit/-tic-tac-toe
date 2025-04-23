@@ -6,6 +6,7 @@
       "dom",
       "es2015"
     ],
+    "types": ["node"],
     // Библиотеки для работы с DOM и современным JavaScript
     "allowJs": true,
     // Разрешить использование JavaScript файлов
