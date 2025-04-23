@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    // Совместимость с ES5
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    // Библиотеки для работы с DOM и современным JavaScript
+    "allowJs": true,
+    // Разрешить использование JavaScript файлов
+    "jsx": "react-jsx",
+    // Использование новой JSX трансформации
+    "moduleResolution": "node",
+    // Используем разрешение модулей как в Node.js
+    "strict": true,
+    // Включаем строгую типизацию
+    "esModuleInterop": true,
+    // Интероп с модулями ES
+    "skipLibCheck": true,
+    // Пропуск проверки типов в библиотеках
+    "forceConsistentCasingInFileNames": true
+    // Принудительное соблюдение единого регистра в названиях файлов
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
